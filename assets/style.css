@@ -2,6 +2,14 @@ body {
     overflow-x: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 /*  Custom Buttons */
 
 .btn1 {
@@ -217,6 +225,7 @@ section h3 {
 .contact-details p {
     font-family: 'Poppins', sans-serif;
     color: #333333;
+    margin-bottom: 0px;
 }
 
 /* Footer */
@@ -228,7 +237,7 @@ footer {
 footer p {
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 15px;
 }
 
