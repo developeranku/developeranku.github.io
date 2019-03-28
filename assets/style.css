@@ -124,7 +124,7 @@ section h3 {
     padding-top: 10px;
 }
 
-.my-skills{
+.my-skills {
     min-height: 200px;
 }
 
@@ -238,4 +238,40 @@ footer p {
 
 footer i {
     margin-left: 10px;
+}
+
+
+/* Flash class and keyframe animation */
+
+.flashit {
+    -webkit-animation: flash linear 1s infinite;
+    animation: flash linear 2s infinite;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
