@@ -1,0 +1,241 @@
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  Custom Buttons */
+
+.btn1 {
+    background: #48b1bf !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 40px;
+    border-radius: 500px;
+    transition: 0.2s ease;
+    border: solid 1px #48b1bf;
+}
+
+.btn1:hover {
+    background: none !important;
+    border: solid 1px white !important;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* Header */
+
+header {
+    background: url(images/banner1.jpg);
+    height: 100vh;
+}
+
+.header-content h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+nav ul li a {
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+}
+
+nav ul li a:after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: white;
+    transition: 0.3s ease;
+    margin-top: 5px;
+}
+
+nav ul li a:hover:after {
+    width: 115%;
+}
+
+.header-content h6 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.header-content i {
+    color: white;
+}
+
+/* Section */
+
+section h3 {
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2em !important;
+    text-align: center;
+
+}
+
+#skills {
+    background: #222222;
+}
+
+.skills h4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.skills ul {
+    padding: 0;
+}
+
+.skills ul li {
+    color: white;
+    display: block;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px;
+}
+
+.skills i {
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.my-skills{
+    min-height: 200px;
+}
+
+.progress {
+    background: #58585B;
+    height: 14px;
+    margin: 10px 0px;
+}
+
+.progress-bar {
+    background-color: #48b1bf;
+}
+
+.media i {
+    /*
+    background: linear-gradient(to right, #69AFE0, #48b1bf);
+    */
+
+    background: #48b1bf;
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* Chrome 10-25, Safari 5.1-6 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Chrome 10-25, Safari 5.1-6 */
+    font-size: 36px;
+}
+
+.media h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #333333;
+}
+
+.media p {
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.projects img {
+    border-radius: 20px;
+    transition: 0.3s ease;
+    padding: 10px;
+}
+
+.projects img:hover {
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.projects h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #444444;
+}
+
+.card {
+    border: none !important;
+}
+
+.about-me p {
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    margin-top: 50px;
+}
+
+.about-me img {
+    width: 50%;
+}
+
+.contact-details i {
+    /*
+    background: linear-gradient(to right, #69AFE0, #48b1bf);
+    */
+
+    background: #48b1bf;
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* Chrome 10-25, Safari 5.1-6 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Chrome 10-25, Safari 5.1-6 */
+    font-size: 36px;
+}
+
+.contact-details h5 {
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contact-details p {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+/* Footer */
+
+footer {
+    background: #222222;
+}
+
+footer p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+footer i {
+    margin-left: 10px;
+}

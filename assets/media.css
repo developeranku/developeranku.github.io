@@ -1,0 +1,20 @@
+@media only screen and (max-width:768px) {
+
+    .navbar {
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+
+    .header-content h6 {
+        font-size: 14px;
+    }
+
+    .header-content i {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+}
