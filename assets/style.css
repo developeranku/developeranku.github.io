@@ -2,11 +2,11 @@ body {
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
@@ -125,7 +125,9 @@ section h3 {
 .skills i {
     color: white;
     font-size: 30px;
+    /*
     padding-top: 10px;
+*/
 }
 
 .my-skills {
