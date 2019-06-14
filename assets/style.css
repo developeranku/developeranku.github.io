@@ -230,6 +230,10 @@ section h3 {
     margin-bottom: 0px;
 }
 
+.contact-details p:hover {
+    opacity: 0.8;
+}
+
 /* Footer */
 
 footer {
