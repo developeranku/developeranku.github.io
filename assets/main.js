@@ -349,7 +349,6 @@ $('a[href*="#"]')
         }
 
         scrollArray(overflowing, -deltaX, -deltaY);
-        event.preventDefault();
     }
 
     /**
