@@ -202,6 +202,16 @@ section h3 {
     width: 50%;
 }
 
+.developer-story p {
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    margin-top: 50px;
+}
+
+.developer-story img {
+    width: 50%;
+}
+
 .contact-details i {
     /*
     background: linear-gradient(to right, #69AFE0, #48b1bf);
