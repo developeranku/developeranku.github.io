@@ -184,6 +184,30 @@ section h3 {
     color: #444444;
 }
 
+.projects .nav-pills .nav-item {
+    width: 33%;
+    margin: auto;
+    float: left;
+}
+
+.projects .nav-pills .nav-link {
+    color: black;
+/*    border: solid 1px black;*/
+    border-radius: 0;
+    text-align: center;
+    border-right: none;
+}
+
+.projects .nav-pills .nav-link {
+   background: #eee !important;
+}
+
+.projects .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #48b1bf !important;
+    color: white !important;
+/*    border: solid 1px #48b1bf !important;*/
+}
+
 .card {
     border: none !important;
 }
