@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -108,6 +112,7 @@ section h3 {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .skills ul {
@@ -119,7 +124,7 @@ section h3 {
     display: block;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .skills i {
@@ -130,33 +135,24 @@ section h3 {
 */
 }
 
+.skills ul li img {
+    width: 24px;
+    margin-right: 10px;
+}
+
 .my-skills {
     min-height: 200px;
 }
 
-.progress {
-    background: #58585B;
-    height: 14px;
-    margin: 10px 0px;
+.break {
+    background: #333333;
+    height: 2px;
+    margin: 20px 0;
 }
 
-.progress-bar {
-    background-color: #48b1bf;
-}
-
-.media i {
-    /*
-    background: linear-gradient(to right, #69AFE0, #48b1bf);
-    */
-
-    background: #48b1bf;
-
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* Chrome 10-25, Safari 5.1-6 */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* Chrome 10-25, Safari 5.1-6 */
-    font-size: 36px;
+.media img {
+    width: 15%;
+    margin-right: 20px;
 }
 
 .media h4 {
