@@ -168,14 +168,10 @@ section h3 {
 }
 
 .projects img {
-    border-radius: 20px;
-    transition: 0.3s ease;
     padding: 10px;
 }
 
 .projects img:hover {
-    padding: 0px;
-    border-radius: 10px;
 }
 
 .projects h5 {
@@ -200,16 +196,31 @@ section h3 {
 
 .projects .nav-pills .nav-link {
    background: #eee !important;
+    border-radius: 10px;
 }
 
 .projects .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background: #48b1bf !important;
     color: white !important;
+    border-radius: 10px;
 /*    border: solid 1px #48b1bf !important;*/
 }
 
 .card {
-    border: none !important;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 12px;
+/*    border: none !important;*/
+}
+
+.card p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-body img{
+    width: 26px;
+    padding: 0;
+    margin: 0 4px;
 }
 
 .about-me p {
