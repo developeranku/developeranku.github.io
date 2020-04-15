@@ -23,6 +23,12 @@
 
 }
 
+@media only screen and (max-width: 576px) {
+    .card {
+        margin: 6px 0;
+    }
+}
+
 @media only screen and (max-width:500px) {
 
     .header-content h6 {
@@ -32,6 +38,11 @@
     .header-content i {
         margin-left: 10px !important;
         margin-right: 10px !important;
+    }
+
+    .projects .nav-pills .nav-item {
+        width: 100%;
+        margin: 4px 0;
     }
 
 }
