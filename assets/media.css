@@ -21,6 +21,24 @@
         display: none !important;
     }
 
+    .skills-desktop {
+        display: none;
+    }
+
+    .skills-mobile {
+        display: flex;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .skills-mobile {
+        display: none;
+    }
+
+    .skills-desktop {
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 576px) {
